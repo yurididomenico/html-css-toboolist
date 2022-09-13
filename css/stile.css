@@ -56,15 +56,36 @@ main h2::before
 {
     content: "\25be";
 }
-.check
+main section
+{
+    margin: 0 0 2.5vw;
+}
+section h2
+{
+    margin: 0.5vw 0
+}
+main p
+{
+    margin: 1vw 0;
+}
+.cerchio
 {
     border-radius: 50%;
-    border: 1px solid #65C0AA;
     height: 0.2vw;
     margin: 0 0 0 0.3vw;
     padding: 0 0.15vw;
     font-size: 0.7vw;
+    color: black;
+}
+.check
+{
     color: #65c0aa;
+    border: 1px solid #65C0AA;
+}
+.cross
+{
+    color: #ee706f;
+    border: 1px solid #ee706f;
 }
 .tipo
 {
@@ -77,10 +98,26 @@ main h2::before
 {
     background-color: #4dace8;
 }
-
-
-
-
+.viola
+{
+    background-color: #9e73e1;
+}
+.verde
+{
+    background-color: #65c0aa;
+}
+.arancione
+{
+    background-color: #f09c3f;
+}
+.fucsia
+{
+    background-color: #d762a0;
+}
+.lime
+{
+    background-color: #aec93c;
+}
 
 
 
