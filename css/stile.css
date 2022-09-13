@@ -11,8 +11,7 @@
 }
 body
 {
-    background-color: #c6c8c9;
-    /* background-color: #f6f8f9; */
+    background-color: #f6f8f9;
     font-family: 'Montserrat', sans-serif;
 }
 header, main, nav
@@ -39,7 +38,8 @@ nav, main
 }
 .header-button-addtask
 {
-    background-color: #4FAEEF;
+    background-color: #4faeef;
+    border: 1px solid #4faeef;
     color: white;
 }
 .header-button-addsection
@@ -119,11 +119,31 @@ main p
     background-color: #aec93c;
 }
 
+/* Hover */
 
+.header-button-addtask:hover
+{
+    background-color: #259be6;
+}
+.header-button-addsection:hover
+{
+    background-color: #cbcaca;
+    color: white;
+}
+main p:hover
+{
+    font-weight: bold;
+    cursor: pointer;
+}
 
-
-
-
+main h2:hover
+{
+    background-color: rgb(64, 155, 197);
+    color: white;
+    width: 10vw;
+    border-radius: 10vw;
+    cursor: pointer;
+}
 
 
 
