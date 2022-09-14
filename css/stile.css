@@ -36,22 +36,30 @@ nav, main
     margin: 0.2vw auto;
     padding: 1.3vw 3vw;
 }
-.header-button-addtask
+
+
+
+
+.addtask
 {
     background-color: #4faeef;
     border: 1px solid #4faeef;
     color: white;
 }
-.header-button-addsection
+.addsection
 {
     border: 1px solid #c5cbd0;
     color: #c7ccd1;
 }
-.header-button-addtask, .header-button-addsection
+.header-button
 {
     padding: 0.4vw 0.5vw;
     border-radius: 5px;
 }
+
+
+
+
 main h2::before
 {
     content: "\25be";
@@ -121,11 +129,11 @@ main p
 
 /* Hover */
 
-.header-button-addtask:hover
+.addtask:hover
 {
     background-color: #259be6;
 }
-.header-button-addsection:hover
+.addsection:hover
 {
     background-color: #cbcaca;
     color: white;
@@ -135,7 +143,6 @@ main p:hover
     font-weight: bold;
     cursor: pointer;
 }
-
 main h2:hover
 {
     background-color: rgb(64, 155, 197);
